@@ -61,6 +61,11 @@
 		</plugins>
 	</build>
 
-
+	<distributionManagement>
+		<repository>
+			<id>pipeline</id>
+			<url>http://localhost:8081/nexus/content/repositories/pipeline</url>
+		</repository>
+	</distributionManagement>
 
 </project>
